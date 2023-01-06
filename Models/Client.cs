@@ -15,10 +15,12 @@ namespace entry.Models
         [StringLength(60, MinimumLength = 3)]
         public string? Name { get; set; }
         [Required]
-        [DataType(DataType.EmailAddress)]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Email is not valid.")]
+        [RegularExpression(@"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$", ErrorMessage = "Email is not valid.")]
         public string? Email { get; set; }
         [Required]
         [DataType(DataType.Date)]
+        [Validators.ValidateDateRange]
         public DateTime BirthDate { get; set; }
         [Required]
         [EnumDataType(typeof(Gender))]

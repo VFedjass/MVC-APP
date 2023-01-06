@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vld\\Desktop\\EntryProject\\entry.csproj": {}
+    "C:\\Users\\Vld\\Desktop\\Entryyy\\MyMVC\\entry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vld\\Desktop\\EntryProject\\entry.csproj": {
+    "C:\\Users\\Vld\\Desktop\\Entryyy\\MyMVC\\entry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vld\\Desktop\\EntryProject\\entry.csproj",
+        "projectUniqueName": "C:\\Users\\Vld\\Desktop\\Entryyy\\MyMVC\\entry.csproj",
         "projectName": "entry",
-        "projectPath": "C:\\Users\\Vld\\Desktop\\EntryProject\\entry.csproj",
+        "projectPath": "C:\\Users\\Vld\\Desktop\\Entryyy\\MyMVC\\entry.csproj",
         "packagesPath": "C:\\Users\\Vld\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vld\\Desktop\\EntryProject\\obj\\",
+        "outputPath": "C:\\Users\\Vld\\Desktop\\Entryyy\\MyMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
