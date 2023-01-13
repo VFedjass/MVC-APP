@@ -31,8 +31,8 @@ namespace entry.Controllers
                             Email = r.Email,
                             BirthDate = r.BirthDate,
                             Gender = r.Gender,
-                            OrdersCount = r.Orders.Count,
-                            OrdersAvgPrice = r.OrdersAvgPrice()
+                            OrdersCount = r.Orders!.Count,
+                            OrdersAvgPrice = r.Orders.Count() == 0 ? 0 : r.Orders.Average(o => o.Quantity * o.Product!.Price)
                         }).ToListAsync()) :
                         Problem("Entity set 'entryContext.Client'  is null.");
         }
